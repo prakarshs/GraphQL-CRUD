@@ -24,7 +24,7 @@ public class Movie {
     @Column(name = "MOVIE_YEAR")
     private Long movieYear;
     @Column(name = "MOVIE_RATING")
-    private int movieRating;
+    private Long movieRating;
 
 
 }
