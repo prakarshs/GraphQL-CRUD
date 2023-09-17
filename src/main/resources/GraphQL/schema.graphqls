@@ -1,0 +1,25 @@
+type Mutation{
+    addMovies(movieRequest:MovieRequest):Movie
+    removeMovie(movieId:Int):[Movie]
+}
+
+type Query{
+    allMovies:[Movie]
+    showMovie(movieId:Int):Movie
+}
+
+
+type Movie{
+    movieId:ID!
+    movieName:String
+    movieDirector:String
+    movieYear:Int
+    movieRating:Int
+}
+
+input MovieRequest {
+    movieName:String
+    movieDirector:String
+    movieYear:Int
+    movieRating:Int
+}
