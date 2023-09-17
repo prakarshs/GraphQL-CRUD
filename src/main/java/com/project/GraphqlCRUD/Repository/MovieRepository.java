@@ -1,0 +1,9 @@
+package com.project.GraphqlCRUD.Repository;
+
+import com.project.GraphqlCRUD.Entity.Movie;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface MovieRepository extends JpaRepository<Movie, Long> {
+}
