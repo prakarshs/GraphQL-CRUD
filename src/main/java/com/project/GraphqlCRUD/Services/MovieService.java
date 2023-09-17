@@ -9,4 +9,6 @@ public interface MovieService {
     Movie add(Movie movie);
     List<Movie> showAll();
     Movie show(Long movieId);
+
+    List<Movie> remove(Long movieId);
 }

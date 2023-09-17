@@ -36,4 +36,11 @@ public class MovieServiceIMPL implements MovieService{
         Movie movie = movieRepository.findById(movieId).orElseThrow(()->new CustomError("THE MOVIE ID IS INVALID","Try Entering A different Id"));
         return movie;
     }
+
+    @Override
+    public List<Movie> remove(Long movieId) {
+        Movie movie = movieRepository.findById(movieId).orElseThrow(()->new CustomError("THE MOVIE ID IS INVALID","Try Entering A different Id"));
+        movieRepository.delete(movie);
+        return new ArrayList<>(movieRepository.findAll());
+    }
 }
