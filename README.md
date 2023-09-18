@@ -9,6 +9,7 @@ This is a very straight-forward and simple implementation of GraphQL harnessing 
 
 ### Built With
 * ![SpringBoot]
+* ![MySql]
 * ![GraphQL]
 
 
@@ -46,6 +47,7 @@ Project Link: [https://github.com/prakarshs/GraphQL-CRUD](https://github.com/pra
 [AWS]: https://img.shields.io/badge/AWS-20232A?style=for-the-badge&logo=amazon&logoColor=FFAC1C
 [Openpdf]: https://img.shields.io/badge/OpenPDF-F3F2ED?style=for-the-badge&logo=adobe&logoColor=DE3163
 [MySql]: https://img.shields.io/badge/MySql-F28C28?style=for-the-badge&logo=mysql&logoColor=white
+[ElasticSearch]: https://img.shields.io/badge/ELASTICSEARCH-20B2AA?style=for-the-badge&logo=elasticSearch&logoColor=black
 [GraphQL]: https://img.shields.io/badge/GRAPHQL-black?style=for-the-badge&logo=graphql&logoColor=DA70D6
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
